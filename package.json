@@ -1,0 +1,22 @@
+{
+  "name": "hey-memory-shared-models",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luudvan94/hey-memory-shared-models.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luudvan94/hey-memory-shared-models/issues"
+  },
+  "homepage": "https://github.com/luudvan94/hey-memory-shared-models#readme",
+  "publishConfig": {
+    "@luudvan94:registry": "https://npm.pkg.github.com"
+  }
+}
