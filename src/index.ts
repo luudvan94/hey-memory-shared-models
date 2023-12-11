@@ -3,8 +3,8 @@ export type Content = string;
 export type Username = string;
 
 export type User = {
-  id: ID;
-  userName: Username;
+  uid: ID;
+  userName: Username | null;
 };
 
 export type Tweet = {
