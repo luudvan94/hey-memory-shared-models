@@ -4,7 +4,7 @@ export type Username = string;
 
 export type User = {
   uid: ID;
-  userName: Username | null;
+  displayName: Username | null;
 };
 
 export type Tweet = {
