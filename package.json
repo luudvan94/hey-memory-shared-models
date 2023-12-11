@@ -1,10 +1,12 @@
 {
   "name": "@luudvan94/hey-memory-shared-models",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,9 @@
   "homepage": "https://github.com/luudvan94/hey-memory-shared-models#readme",
   "publishConfig": {
     "@luudvan94:registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "typescript": "^5.3.3"
   }
 }
