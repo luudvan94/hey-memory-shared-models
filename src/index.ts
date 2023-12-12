@@ -10,14 +10,10 @@ export type User = {
   profile: UserProfile;
 };
 
-export type TweetContent = {
-  content: Content;
-  createdAt: Date;
-};
-
 export type Tweet = {
   id: ID;
-  content: TweetContent;
+  content: Content;
+  createdAt: Date;
 };
 
 export type Tag = string;
