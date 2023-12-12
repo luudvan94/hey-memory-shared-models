@@ -2,15 +2,22 @@ export type ID = string;
 export type Content = string;
 export type Username = string;
 
+export type UserProfile = {
+  displayName: Username | null;
+};
 export type User = {
   uid: ID;
-  displayName: Username | null;
+  profile: UserProfile;
+};
+
+export type TweetContent = {
+  content: Content;
+  createdAt: Date;
 };
 
 export type Tweet = {
   id: ID;
-  content: Content;
-  createdAt: Date;
+  content: TweetContent;
 };
 
 export type Tag = string;
