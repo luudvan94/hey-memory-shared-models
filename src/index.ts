@@ -14,6 +14,7 @@ export type Tweet = {
   id: ID;
   content: Content;
   createdAt: Date;
+  parentTweetId: ID | null;
 };
 
 export type Tag = string;
