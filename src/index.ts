@@ -14,7 +14,8 @@ export type Tweet = {
   id: ID;
   content: Content;
   createdAt: Date;
-  parentTweetId?: ID;
+  parentTweetId: ID | null;
+  childCount: number;
 };
 
 export type Tag = string;
